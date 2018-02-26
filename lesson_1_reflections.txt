@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    Easier, but still took some time.
+    NOTE: 
+    	win -> fc old_file new_file
+    	mac & linux -> diff -u old_file new_file
+
+How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?
+
+    You don't make the same mistakes again. You can see when the change happened -> it's easier to
+    look up for the right old version of the file.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do
+in Git, vs having versions automatically saved, like Google docs does?
+
+    Manually -> you decide when to commit, so it's clearer what kind of changes were made between 
+    commits. Con: you can forget to commit for a long time and when it comes to solving problems it 
+    can be real pain
+    Automatically -> you rarely lose big chunks of data, but when viewing history it is not clear 
+    which version is the right one, so you really need to spend more time to look into all probable 
+    versions of the document. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+    Git -> you save at once bigger chunks of code, it's not saving files as you go, so when it's 
+    time to save, it saves everything needed at once
+    Google Docs -> you are usually writing one doc, so it's periodically saving versions of that 
+    one file. This is usually used as somethig that needs only one file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    With git log you can see which commitment have been made -> history of the particular file
+    With git diff you can see where the differences between two commitments of the same file have
+    been made.
+
+How might using version control make you more confident to make changes that could break something?
+
+    You can still go back to an old file, which was good enough. It can spare you hours of search 
+    for the error... you just go back to working version and check $git diff where the things went 
+    wrong.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To develop apps and using git for saving different versions of the files that are part of the 
+    app. 
