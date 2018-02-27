@@ -1,5 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
-	The file .git is created that logs every commit you do in this repository. Whereever (in 
+	The file .git is created that logs every commit you do in this repository. Wherever (in 
 	whichever folder) you initialize the new repository, that is the root of that repository.
 
 How is the staging area different from the working directory and the repository?
@@ -14,7 +14,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How
 would branches help?
-	When you want to make some change or some extension that can mess with the core version. On new branch you can work on something similar to a module of the program. Branches can keep code divided into chunks that logically represent one part of the app.
+	When you want to make some change or some extension that can mess with the core version. On new
+	branch you can work on something similar to a module of the program. Branches can keep code 
+	divided into chunks that logically represent one part of the app.
 
 How do the diagrams help you visualize the branch structure?
 	It's easier to see where new branches were created, which commits were done to the each of the 
@@ -22,13 +24,13 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way
 we do?
-	The rusult is one branch to which we merged the other branch that consists of all commits of
+	The result is one branch to which we merged the other branch that consists of all commits of
 	both branches. The diagram is a good visual representation what was going on with commits - 
 	when they were made and on which branch they were made.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 	When you do the automatic merge it can come to serious conflict in the code (you need a really
 	good AI algorithms for that, which Git doesn't have), but for simple things it saves time. 
-	Doing merges manually really counts when there is sophisticated code, which should be discused 
+	Doing merges manually really counts when there is sophisticated code, which should be discussed 
 	between different programmers, who wrote parts of it. When it comes to simple code lines then 
 	it just takes too much time.
