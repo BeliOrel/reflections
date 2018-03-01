@@ -10,22 +10,38 @@ up-to-date with your remote repository?
     would quickly come to conflicts, your own part of the code would suddenly stop working
     because somebody else changed part of the code that was important for you, etc.
 
-Describe the differences between forks, clones, and branches.  When would you
-use one instead of another?
+Describe the differences between forks, clones, and branches.  When would you use one instead
+of another?
 
-    Fill in your answer here
+    Forks are cloned GitHub repositories. Clones are copies from your local working repository to 
+    GitHub (remote repository) or vice versa. You can also clone repositories on your local 
+    machine. It can also be said that forks are some sort of clones. Branches are also some sort of 
+    clones from one particular point, but then new content is made and at the end branches usually 
+    merge with the main, master branch of the project. Some sort of cloning is present in all three 
+    variations. You can use forking when you want to do something new with the project (usually 
+    just for yourself) but you don't have the rights to change anything in the original repository. 
+    You use branches when you work with more people on the same project and everyone is responsible 
+    for something else, or you just want to try out some stuff that's too risky to be done on 
+    master branch. At the end side branches are usually merged with master branch.
 
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    Fill in your answer here
+    It's the information about when and what content has changed since our last pull. It's also a good thing for doing fast-forward merges knowing the history of commits.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be
+harder?
 
-    Fill in your answer here
+    Meet up and discuss, for easy changes e-mail, skype, hang out, etc. are also good enough. For 
+    easy changes is better GitHub, but when it comes to complicated things, even when using GitHub 
+    on one point there will be a must to meet in person and discuss all the changes.
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly in master?  
+What benefits does each approach have?
 
-    Fill in your answer here
+    When you have delicate code, which can harm code on the master branch, or if you work in team
+    and you need to have updated code and you can also write your own code without destroying 
+    important parts of the code which others in your team use. others should check your code before 
+    actually mergin it to the master branch on GitHub. Anyway, it's much easier, less complicated 
+    to just make changes on master, but if you got conflicting code than the whole project can 
+    suffer until the conflict is resolved. Burt if you work alone on the project, then making 
+    changes on master branch is quite safe and less complicated.  
