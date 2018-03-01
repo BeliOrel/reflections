@@ -26,7 +26,8 @@ of another?
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    It's the information about when and what content has changed since our last pull. It's also a good thing for doing fast-forward merges knowing the history of commits.
+    It's the information about when and what content has changed since our last pull. It's also a
+    good thing for doing fast-forward merges knowing the history of commits.
 
 How would you collaborate without using Git or GitHub?  What would be easier, and what would be
 harder?
